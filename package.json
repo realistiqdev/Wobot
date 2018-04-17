@@ -9,6 +9,7 @@
   "author": "Realistiq",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "github:hydrabolt/discord.js"
+    "discord.js": "github:hydrabolt/discord.js",
+    "quick.db": "^6.1.3"
   }
 }
