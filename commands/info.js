@@ -7,5 +7,4 @@ exports.run = (client, message, args) => {
   .addField('Author', 'brutall', true);
 
   message.channel.send(embed);
-  }
 };
