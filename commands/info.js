@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+
 exports.run = (client, message, args) => {
   const embed = new Discord.MessageEmbed()
   .setAuthor('Bot Info', 'https://i.imgur.com/kDX3dso.png')
