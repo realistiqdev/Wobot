@@ -19,12 +19,12 @@ exports.run = (client, message, args) => {
     .addField('Song Name', trackName, true)
     .addField('Album', trackAlbum, true)
     .addField('Author', trackAuthor, true)
-    .addField('Listen to Track:', `[\'${trackURL}\'](${trackURL})`, false);
+    .addField('Listen to Track:', `[\'${trackURL}\'](Spotify)`, false);
 
     message.channel.send(embed);
   } else {
 
-    message.channel.send('**This user isn\'t listening to Spotify!');
+    message.channel.send('**This user isn\'t listening to Spotify!**');
 
   }
 };
