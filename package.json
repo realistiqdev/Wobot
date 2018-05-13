@@ -11,6 +11,7 @@
   "dependencies": {
     "discord-eco": "0.0.10",
     "better-sqlite3": "4.1.0",
+    "node-gyp": "latest",
     "discord.js": "github:hydrabolt/discord.js"
   }
 }
