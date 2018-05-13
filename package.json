@@ -9,6 +9,7 @@
   "author": "Realistiq",
   "license": "ISC",
   "dependencies": {
+    "discord-eco": "0.0.10",
     "discord.js": "github:hydrabolt/discord.js"
   }
 }

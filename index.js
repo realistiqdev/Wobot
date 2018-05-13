@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
+const economy = require('discord-eco');
 
 const client = new Discord.Client();
 const prefix = '!';
